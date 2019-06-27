@@ -1,2 +1,2 @@
 create database bdCinema;
-use bdCinema;
+use  bdCinema;
