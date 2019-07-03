@@ -1,0 +1,7 @@
+CREATE TABLE `genero` (
+  `idGENERO` int(11) NOT NULL AUTO_INCREMENT,
+  `descricao` varchar(45) DEFAULT NULL,
+  `FILME_idFilme` int(11) NOT NULL,
+  `FILME_SESSAO_idSessao` int(11) NOT NULL,
+  PRIMARY KEY (`idGENERO`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
