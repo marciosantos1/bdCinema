@@ -1,0 +1,8 @@
+CREATE TABLE `cliente` (
+  `idCliente` int(11) NOT NULL AUTO_INCREMENT,
+  `nomeCliente` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `usuario` varchar(45) DEFAULT NULL,
+  `senha` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idCliente`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
