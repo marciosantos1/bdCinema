@@ -1,0 +1,8 @@
+CREATE TABLE `sessao` (
+  `idSessao` int(11) NOT NULL AUTO_INCREMENT,
+  `dataEHoraFilme` datetime DEFAULT NULL,
+  `valorInteiraEntrada` float DEFAULT NULL,
+  `valorMeiaEntrada` float DEFAULT NULL,
+  `encerrada` int(11) DEFAULT NULL,
+  PRIMARY KEY (`idSessao`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
