@@ -1,0 +1,6 @@
+CREATE TABLE `ingresso` (
+  `idIngresso` int(11) NOT NULL AUTO_INCREMENT,
+  `tipo` int(11) DEFAULT NULL,
+  `SESSAO_idSessao` int(11) NOT NULL,
+  PRIMARY KEY (`idIngresso`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
