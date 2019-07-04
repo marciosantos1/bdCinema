@@ -1,0 +1,2 @@
+UPDATE `cinema`.`ingresso` SET `tipo` = '3' WHERE (`idIngresso` = '1');
+UPDATE `cinema`.`ingresso` SET `tipo` = '1' WHERE (`idIngresso` = '2');
