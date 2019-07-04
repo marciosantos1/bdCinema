@@ -1,0 +1,2 @@
+INSERT INTO `cinema`.`sessao` (`dataEHoraFilme`, `valorInteiraEntrada`, `valorMeiaEntrada`, `encerrada`) VALUES ('2019-02-01  22:02:01', '25,00', '12,50', '2');
+INSERT INTO `cinema`.`sessao` (`dataEHoraFilme`, `valorInteiraEntrada`, `valorMeiaEntrada`, `encerrada`) VALUES ('2019-10-22 19:00:00', '25,00', '12,50', '2');
