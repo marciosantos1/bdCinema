@@ -1,0 +1,2 @@
+INSERT INTO `cinema`.`genero` (`descricao`, `FILME_idFilme`, `FILME_SESSAO_idSessao`) VALUES ('Ação', '1', '2');
+INSERT INTO `cinema`.`genero` (`descricao`, `FILME_idFilme`, `FILME_SESSAO_idSessao`) VALUES ('Aventura', '2', '1');
