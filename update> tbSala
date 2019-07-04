@@ -1,0 +1,2 @@
+UPDATE `cinema`.`sala` SET `capacidade` = '45' WHERE (`idSala` = '1');
+UPDATE `cinema`.`sala` SET `capacidade` = '30' WHERE (`idSala` = '2');
