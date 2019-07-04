@@ -1,0 +1,2 @@
+INSERT INTO `cinema`.`cliente` (`nomeCliente`, `email`, `usuario`, `senha`) VALUES ('João Souza', 'joao1@gmail', 'joao20', '1234');
+INSERT INTO `cinema`.`cliente` (`nomeCliente`, `email`, `usuario`, `senha`) VALUES ('Ana Maria', 'anaM@gmail', 'anaM10', '12345');
