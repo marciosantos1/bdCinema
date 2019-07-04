@@ -1,0 +1,2 @@
+UPDATE `cinema`.`genero` SET `descricao` = 'Comédia' WHERE (`idGENERO` = '1');
+UPDATE `cinema`.`genero` SET `descricao` = 'Romance' WHERE (`idGENERO` = '2');
