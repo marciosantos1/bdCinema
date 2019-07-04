@@ -1,0 +1,1 @@
+DELETE FROM `cinema`.`cliente` WHERE (`idCliente` = '2');
