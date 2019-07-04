@@ -1,0 +1,2 @@
+INSERT INTO `cinema`.`filme` (`tituloFilme`, `duracao`, `SESSAO_idSessao`) VALUES ('Homem Aranha', '01:30:00', '1');
+INSERT INTO `cinema`.`filme` (`tituloFilme`, `duracao`, `SESSAO_idSessao`) VALUES ('O Viajante', '02:10:00', '2');
