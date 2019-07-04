@@ -1,0 +1,2 @@
+UPDATE `cinema`.`filme` SET `tituloFilme` = 'Homem Aranha 2' WHERE (`idFilme` = '1') and (`SESSAO_idSessao` = '1');
+UPDATE `cinema`.`filme` SET `tituloFilme` = 'No Espaço' WHERE (`idFilme` = '2') and (`SESSAO_idSessao` = '2');
