@@ -1,0 +1,2 @@
+UPDATE `cinema`.`cliente` SET `email` = 'joao111@gmail' WHERE (`idCliente` = '1');
+UPDATE `cinema`.`cliente` SET `email` = 'anaM222@gmail' WHERE (`idCliente` = '2');
