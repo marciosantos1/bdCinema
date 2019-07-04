@@ -1,0 +1,2 @@
+INSERT INTO `cinema`.`sala` (`capacidade`, `poltrona`, `SESSAO_idSessao`) VALUES ('50', '1A', '1');
+INSERT INTO `cinema`.`sala` (`capacidade`, `poltrona`, `SESSAO_idSessao`) VALUES ('40', '1B', '2');
