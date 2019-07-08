@@ -1,0 +1,1 @@
+DELETE FROM `cinema`.`cliente_tem_sessao` WHERE (`CLIENTE_idCliente` = '2') and (`SESSAO_idSessao` = '3');
