@@ -1,0 +1,1 @@
+DELETE FROM `cinema`.`sessao` WHERE (`idSessao` = '1');
