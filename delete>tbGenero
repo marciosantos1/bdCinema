@@ -1,0 +1,1 @@
+DELETE FROM `cinema`.`genero` WHERE (`idGENERO` = '2');
