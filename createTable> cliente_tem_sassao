@@ -1,0 +1,5 @@
+CREATE TABLE `cliente_tem_sessao` (
+  `CLIENTE_idCliente` int(11) NOT NULL,
+  `SESSAO_idSessao` int(11) NOT NULL,
+  PRIMARY KEY (`CLIENTE_idCliente`,`SESSAO_idSessao`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
