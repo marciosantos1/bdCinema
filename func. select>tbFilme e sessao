@@ -1,0 +1,2 @@
+select c.tituloFilme, duracao,SESSAO_idSessao from filme c
+inner join cliente_tem_sessao using(SESSAO_idSessao);
