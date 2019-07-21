@@ -1,0 +1,9 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `getFilmeDataHoraSessaoSala`(in nomeF varchar(45))
+BEGIN
+     select f.tituloFilme, s.idSessao, s.dataEHoraFilme, sl.idSala, sl.poltrona from filme f 
+     inner join sessao s 
+     inner join sala sl using (SESSAO_idSessao)
+     where tituloFilme = nomeF ;
+END
+
+call bdcinema.getFilmeDataHoraSessaoSala('homem aranha 2');
